@@ -46,7 +46,7 @@ namespace SigHabitation
 
                 SigHabitation.Residence residence;
 
-                SigHabitation.AccesPostGis accesPostGis = new AccesPostGis("Server=192.168.0.102;Port=5432;User Id=postgres;Password=qwer;Database=postgis20;Integrated Security=true;");
+                SigHabitation.AccesPostGis accesPostGis = new AccesPostGis("Server=192.168.0.106;Port=5432;User Id=postgres;Password=qwer;Database=postgis20;Integrated Security=true;");
 
 
                 foreach (XmlElement element in locationElements)
